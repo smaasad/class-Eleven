@@ -1,0 +1,628 @@
+/* =========== Common Css Start =========== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    /* font-family: "PT Sans", sans-serif; */
+}
+ul,
+ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1110px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+/* =========== Common Css End =========== */
+/* =========== Nav Css Start =========== */
+#primary_nav {
+    margin-top: 13px;
+}
+#primary_nav .row {
+    justify-content: space-between;
+    align-items: center;
+}
+#primary_nav ul li a {
+    color: #353535;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2;
+    padding: 5px 28px;
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+}
+#primary_nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background: #353535;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+#primary_nav ul li:hover a::after {
+    width: 100%;
+    left: 0;
+}
+
+/*-------Nav Css End-------*/
+
+
+/*---------Hero Section Css Start--------*/
+
+#hero_area{
+    position: relative;
+}
+
+#hero_area .hero_area_content{
+    width: 60%;
+    padding: 100px 0;
+}
+
+#hero_area .hero_area_image{
+    width: 40%;
+}
+
+#hero_area .hero_area_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#hero_area .hero_area_image image{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+}
+
+#hero_area .hero_area_content ul{
+    align-items: center;
+}
+
+#hero_area .hero_area_content ul li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* ===========  ABOUT CSS START =========== */
+
+#about{
+    margin: 100px 0 0 0;
+}
+#about .about_img{
+    width: 50%;
+}
+#about .heading{
+    width: 50%;
+    padding: 78px 0 26px 0;
+}
+#about{
+    background: linear-gradient(95deg, #FC0 -21.46%, #FAFFCB 112.13%, #FAFFCB 112.13%);
+}
+#about .heading button{
+    margin: 45px 0 86px 0;
+    padding: 17px 44px;
+    color: #353535;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+    border: 1px solid #000;
+    background: none;
+}
+#about .container{
+    position: relative;
+}
+.ellipse_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* ===========  ABOUT CSS END =========== */
+
+/* ===========   ABOUT CARD CSS START =========== */
+#about_card .card h6{
+    color: #353535;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 180%; /* 39.6px */
+}
+#about_card .card p{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 190%; 
+}
+#about_card .row .card{
+    width: 30.31%;
+}
+#about_card .row{
+
+    gap: 32px;
+}
+.card{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    margin: 151px 0;
+}
+.card img{
+    padding: 39px 0;
+}
+.card p{
+    padding: 26px 59px 62px 59px;
+}
+/* ===========   ABOUT CARD CSS  END =========== */
+
+
+/* =========== BRANDING  CSS START =========== */
+
+#branding .barnding_img{
+    width: 50%;
+}
+#branding .heading{
+    width: 50%;
+}
+#branding .container{
+    border-radius: 30px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+}
+#branding .heading h3{
+   padding: 83px 304px 0 103px;
+}
+#branding .heading p{
+    margin: 21px 65px 35px 103px;
+}
+ #branding .heading button{
+     margin: 21px 65px 35px 103px;
+     padding: 17px 44px;
+     color: #353535;
+     font-size: 17px;
+     font-weight: 500;
+     line-height: 180%;
+     border: 1px solid #000;
+     background: none;
+}
+#branding .container{
+    position: relative;
+}
+#branding .ellite_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 65px;
+    margin-top: -30px;
+}
+/* =========== BRANDING  CSS END =========== */
+
+
+/* =========== HELP CSS START =========== */
+
+#help{
+    background-color: #fff;
+    margin: 148px 0;
+}
+
+#help  .project_design {
+    width: 35%;
+}
+#help  .project_design .row {
+    padding: 17px 29px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+    border-radius: 20px;
+}
+
+#help .project_design .row .pro_img{
+    width: 20%;
+}
+#help .project_design .row .project_1{
+    width:80%;
+}
+#help .project_design .row .project_1 h2{
+    color: #353535;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+}
+#help .project_design .row .project_1 p{
+    color: #353535;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+#help .help_info{
+    width: 65%;
+    text-align: right;
+}
+#help_info_child h1 b{
+    color: #000;
+}
+#help .help_info p{
+    padding: 26px 0 26px 196px;
+}
+#help .help_info .help_info_child p{
+    padding-top: 9px;
+}
+#help .help_info .help_info_child .row{
+    justify-content: space-between;
+}
+/* =========== HELP  CSS END =========== */
+
+/* =========== EXPERIENCE  CSS  START =========== */
+#experience{
+    margin: 73px 0;
+}
+#experience .row .experience_info,
+#experience .row .experience_year,
+#experience .row img {
+    width:calc(100%/ 3)
+}
+#experience .experience_img img {
+    width: 100%;
+}
+#experience .row{
+    justify-content: space-between;
+    margin-top: 78px;
+}
+#experience h1{
+    text-align: center;
+    color: #000;
+}
+#experience .row .experience_year p{
+    margin: 16px 0 120px 0;
+}
+#experience .row .experience_info p{
+    margin: 16px 0 44px 0;
+}
+#experience .row .experience_year h5{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 180%;
+}
+#experience .row .experience_info h5{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 180%;
+}
+/* =========== EXPERIENCE  CSS   END =========== */
+
+
+/* =========== EXPERT AND SKILL CSS START =========== */
+
+
+/* EXPERT AND SKILL SECTIONS STARTS */
+
+#expert_skill{
+    margin-top: 220px;
+}
+#expert_skill .row{
+    margin-right: 0;
+
+}
+#expert_skill .heading{
+    width: 50%;
+}
+#expert_skill .heading .p{ 
+    padding-bottom: 75px;
+    margin-top: 40px;
+    margin-right: 85px;
+}
+#expert_skill .heading p{ 
+     margin-right: 190px;
+}
+#expert_skill .heading button{ 
+     margin-top: 40px;
+}
+#expert_skill .skill{
+     width: 45%;
+}
+#expert_skill .skill img{
+     margin-bottom: 50px;
+}
+#expert_skill .skill button{
+    /* margin: 0px 0px 53px 103px; */
+     padding: 15px 50px;
+     color: #353535;
+     font-size: 17px;
+     font-weight: 500;
+     line-height: 180%;
+     border: 1px solid #000;
+     background: none;
+     margin-top: 0;
+     margin-right: 72px;
+}
+#expert_skill .skill img{
+     align-items: center;
+}
+#expert_skill .skill .row button{
+     width: 50%;
+}
+/* =========== EXPERT AND SKILL CSS END =========== */
+
+
+/* SERVICE SECTION STARTS */
+#service{
+    background: #FFF7D5;
+    padding-top: 70px;
+}
+#service .heading p{
+    padding: 13px 267px;
+}
+#service .row{
+    gap:20px;
+}
+#service .row .service-design{
+    width:30%;
+    border-radius: 12px;
+    border: 0.1px solid #353535;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
+    border: none;
+    margin: 105px 0;
+}
+#service .row .service-design:hover{
+    border: none;
+    background: linear-gradient(159deg, #FC0 3.12%, #FFE476 94.59%);
+    color: #353535;
+    margin-top: 37px;
+    transition: .4s;
+}
+#service .row .service-design img{
+  padding: 32px 0;
+}
+#service .row .service-design p{
+   padding: 25px 50px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 180%; /* 27px */
+}
+#service .row .service-design h5{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 180%; /* 43.2px */
+ }
+/* SERVICE SECTION ENDS */
+
+/* FEEDBACK SECTION STARTS */
+#feedback .container{
+    background: #FBFBFB;;
+    }
+    #feedback .heading{
+        padding-top: 90px;
+    }
+    #feedback .heading p{
+        padding-right: 437px;
+        padding-top: 35px;
+    }
+    #feedback .feedback_img{
+        width: 50%;
+    }
+    #feedback .feedback_info{
+        width: 50%;
+    }
+    #feedback .feedback_info h5{
+        color: #353535;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 200%;
+        padding: 28px 0 0 50px;
+    }
+    #feedback .feedback_info .feedback_p{
+        color: #7A7A7A;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 200%;
+        padding: 0 0 0 50px;
+    
+    }
+    #feedback .row{
+        padding: 65px 0;
+    }
+    /* FEEDBACK SECTION ENDS */
+
+
+    /* BLOG SECTION STARTS  */
+    #blog .blog_post_1{
+        padding: 115px 0;
+    }
+    #blog .blog_post{
+        margin-bottom: 40px;
+    }
+    #blog .heading{
+        text-align: right;
+        margin-top: 90px;
+    }
+    #blog .blog_post .blog_info{
+        width: 50%;
+    }
+    #blog .blog_post .blog_img{
+        width: 50%;
+    }
+    #blog .blog_post .blog_info p{
+        color: #353535;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 190%;
+        display: inline-block;
+    }
+    #blog .blog_post .blog_info input{
+        background: none;
+        border: none;
+    }
+    #blog .blog_post .blog_info input:focus{
+        background: none;
+    }
+    #blog .blog_post .blog_info h5{
+        color: #353535;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 190%;
+        padding: 15px 70px 30px 0 ;
+    }
+    #blog .blog_post .blog_info h6{
+        color: #353535;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 190%;
+    }
+    #blog .blog_post .blog_info img{
+        margin-left: 10px;
+    }
+    #blog .blog_post .blog_info {
+        padding-left: 10px;
+    }
+    #blog .blog_post{
+        width: 50%;
+    }
+    /* BLOG SECTION ENDS */
+
+     /* SUBSCRIBE SECTION STARTS */
+    
+     #subscribe .container{
+        border-radius: 30px;
+        background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+    }
+    #subscribe .subscribe_info p{
+        color: #353535;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 200%;
+       padding-top: 95px;
+    }
+    #subscribe .subscribe_info{
+       padding-left: 75px;
+    }
+    #subscribe .subscribe_img{
+        padding-right: 55px;
+     }
+    #subscribe .subscribe_info p .subs_p{
+       
+       padding-bottom: 95px;
+    }
+    #subscribe .subscribe_info h3{
+        color: #353535;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 200%; 
+    }
+    #subscribe .subscribe_info h6{
+        color: #353535;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 200%; 
+        padding-bottom: 80Px;
+    }
+    #subscribe .subscriber .row{
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* SUBSCRIBE SECTION ENDS */
+
+    /* FOOTER SECTION STARTS */
+    #footer{background: #575757;
+        margin-top: 150px;}
+        .footer_section .row .footer_info{
+         width: calc(100%/ 3);
+         justify-content: space-between;
+        }
+        #footer .footer_section .row{
+            padding: 80px 0;
+        }
+        #footer .footer_section .footer_button{
+           text-align: right
+        }
+        #footer .footer_section .footer_logo p{
+           margin-top: 200px;
+        }
+        #footer .footer_section .footer_info h3{
+            color: #FFF;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 200%;
+        }
+        #footer .footer_section .footer_info p{
+            color: #BBB9B9;
+            text-align: justify;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 180%;
+        }
+        #footer .footer_section .footer_info input{
+            margin-top: 70px;
+            color: #BBB9B9;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 180%;
+            background: none;
+            border: none;
+        }
+        #footer .footer_section .footer_button button{
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 180%;
+            border-radius: 16px;
+            margin-bottom: 100px;
+        }
+        #footer .footer_section .footer_button button:hover{
+            border: 1px solid #FC0;
+        }
+        #footer .footer_section .footer_button .row{
+            padding-left: 80px;
+            text-align: right;
+        }
+        #footer .footer_section .footer_button .row img{
+            padding-left: 10px;
+        }
+        #footer .footer_section .footer_button .row p{
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 180%;
+            padding-right: 15px;
+        }
+        /* FOOTER SECTION ENDS */
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
